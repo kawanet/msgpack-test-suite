@@ -17,13 +17,17 @@ This repository contains a series of pairs of raw values and msgpack binary repr
     - "ca-00-00-00-00"              # float
     - "cb-00-00-00-00-00-00-00-00"  # double
 
-- str: "a"
+- string: "a"
   msgpack:
     - "a1-61"
     - "d9-01-61"
     - "da-00-01-61"
     - "db-00-00-00-01-61"
 ```
+
+See [src folder](https://github.com/kawanet/msgpack-test-suite/tree/master/src) for all of examination patterns.
+
+Prebuilt JSON file [msgpack-test-suite.json](https://rawgit.com/kawanet/msgpack-test-suite/master/dist/msgpack-test-suite.json) is also available for convenience.
 
 ### Test Driver Implementation
 
