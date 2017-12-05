@@ -1,4 +1,6 @@
 # number-negative
+#
+# signed 32bit integer
 
 # 0xFFFFFFFF
 - number: -1

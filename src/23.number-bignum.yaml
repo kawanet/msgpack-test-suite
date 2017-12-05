@@ -1,4 +1,6 @@
 # number-bignum
+#
+# 64bit integer
 
 # +0x0000000100000000 = +4294967296
 - number: 4294967296
