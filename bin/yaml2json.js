@@ -16,8 +16,8 @@ function CLI() {
   }
 
   var json = JSON.stringify(out, null, 1);
-  json = json.replace(/(\[|\d+,)\n\s*(\d+)/g, "$1 $2");
-  json = json.replace(/(\[|\d+,)\n\s*(\d+)/g, "$1 $2");
+  json = json.replace(/(\[|\d+,)\n\s*(-?\d+)/g, "$1 $2");
+  json = json.replace(/(\[|\d+,)\n\s*(-?\d+)/g, "$1 $2");
   json = json.replace(/(\d+)\n\s*(])/g, "$1 $2");
   json += "\n";
 
