@@ -1,7 +1,7 @@
 {
   "name": "msgpack-test-suite",
   "description": "a dataset for testing msgpack library",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "@kawanet",
   "bugs": {
     "url": "https://github.com/kawanet/msgpack-test-suite/issues"
@@ -26,7 +26,7 @@
     "url": "git+https://github.com/kawanet/msgpack-test-suite.git"
   },
   "scripts": {
-    "build": "make dataset/json/suite.json",
+    "build": "make",
     "jshint": "./node_modules/.bin/jshint .",
     "test": "npm run jshint"
   }
