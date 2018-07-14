@@ -1,13 +1,13 @@
 {
   "name": "msgpack-test-suite",
   "description": "a dataset for testing msgpack library",
-  "version": "0.2.0",
+  "version": "0.99.714",
   "author": "@kawanet",
   "bugs": {
     "url": "https://github.com/kawanet/msgpack-test-suite/issues"
   },
   "devDependencies": {
-    "js-yaml": "^3.10.0",
+    "js-yaml": "^3.12.0",
     "jshint": "^2.9.5"
   },
   "homepage": "https://github.com/kawanet/msgpack-test-suite#readme",
